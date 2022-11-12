@@ -1,0 +1,56 @@
+.big-banner {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgba(128, 128, 128, 0.094);
+
+  // height: 200px;
+
+ 
+
+  .big-banner-img {
+   
+
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    img{
+      width:  auto;
+      height: auto;
+    }
+  }
+
+  .big-banner-sale {
+    // display: flex;
+    justify-content: space-around;
+  }
+
+  .big-banner-text {
+    margin-top: 150px;
+    // // display: flex;
+    // align-items: center;
+    // justify-content: center;
+  }
+  h3 {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 25px;
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+  .button {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    color: #fff !important;
+    font-size: 11px !important;
+    line-height: 1.6;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 13px 38px 10px 38px;
+    background: #d9121f;
+    outline: none;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    border-radius: 20px;
+
+  }
+}

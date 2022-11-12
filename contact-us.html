@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Your store</title>
+  </head>
+  <body>
+    <header>
+      <!-- header-top-start -->
+      <section class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-10">
+              <p class="redline-text">This is new bar notification!</p>
+            </div>
+            <div class="col-2">
+              <div class="header-top-close-btn">
+                <button>
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- header-top-end -->
+
+      <!-- header main start -->
+      <section class="header-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4" id="header-left">
+              <div class="header-main-search">
+                <div class="button-search">
+                  <input
+                    type="text"
+                    class="input-block-level search-query"
+                    name="search"
+                    placeholder="Search"
+                    id="search_query"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div class="currency">
+                <span>$</span>
+                <span class="currency-icon">
+                  <i class="fa-solid fa-chevron-down" style="color: red"></i
+                ></span>
+
+                <div class="currency-item">
+                  <ul>
+                    <li>Euro</li>
+                    <li>Pound Sterling</li>
+                    <li>Us</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="lang-english">
+                <span
+                  >English
+                  <i class="fa-solid fa-chevron-down" style="color: red"></i
+                ></span>
+
+                <div class="lang-english-item">
+                  <ul>
+                    <li>English</li>
+                    <li>Italian</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4" id="header-centre">
+              <div class="header-main-logo">
+                <a href="./index.html"><img src="./assets/img/logo-fcart.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-sm-4" id="header-right">
+              <i class="fa-regular fa-circle-user"></i>
+              <i class="fa-solid fa-basket-shopping"></i>
+              <p>
+                $0,00
+                <i
+                  class="fa-solid fa-chevron-down"
+                  style="color: red; font-size: 20px; align-items: center"
+                ></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- header main end -->
+    </header>
+    <nav class="megamenu">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="megamenu-category" id="one">
+              <p style="padding: 25px 0 0 0 ; margin: 0;">Categories Vertical <i class="fa-solid fa-angle-down"></i></p>
+              <!-- <span class="icon-down"> <i class="fa-solid fa-chevron-down"></i></span> -->
+              <div class="nav-menu" style="margin-top: -12px" id="two">
+                <ul>
+                  <li class="nav-menu-items">
+                    <a href="conponents.html"
+                      ><p>
+                        Men
+                        <span
+                          class="megamenu-label"
+                          style="background: #d9121f; color: #ffffff"
+                          ><span
+                            style="
+                              background: #d9121f;
+                              border-color: #d9121f;
+                              border-radius: 20px;
+                              font-size: 20px;
+                            "
+                          ></span
+                          >NEW</span
+                        >
+                      </p>
+                    </a>
+                  </li>
+                  <li class="nav-menu-items">
+                    <a href="conponents.html"><p>Women</p> </a>
+                  </li>
+                  <li class="nav-menu-items">
+                    <a href="conponents.html"
+                      ><p>
+                        Accessories
+                        <span
+                          class="megamenu-label"
+                          style="background: #1349b2; color: #ffffff"
+                          ><span
+                            style="background: #1349b2; border-color: #1349b2"
+                          ></span
+                          >HOT</span
+                        >
+                      </p></a
+                    >
+                  </li>
+                  <li class="nav-menu-items">
+                    <a href="./register-account.html"><p>Register</p></a>
+                  </li>
+                  <li class="nav-menu-items">
+                    <a href="account-login.html"><p>Account Login</p></a>
+                  </li>
+                  <li class="nav-menu-items">
+                    <a href="contact-us.html"><p>Contact</p></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="megamenu-shift-up " id="two">
+              <div class="megamenu-men">
+                <p class="p-new-red">NEW</p>
+                <a href="#"><p>Men <i class="fa-solid fa-angle-down"></i></p></a>
+                <div class="megamenu-men-nav">
+                  <ul>
+                    <li class="megamenu-men-nav-items"><a href="conponents.html"><p>Shirt </p></a> </li>
+                    <li class="megamenu-men-nav-items"><a href="conponents.html"><p>Pants </p></a></li>
+                    <li class="megamenu-men-nav-items"><a href="conponents.html"><p>Jeans </p></a></li>
+                    <li class="megamenu-men-nav-items"><a href="conponents.html"><p>Socks </p></a></li>
+                    <li class="megamenu-men-nav-items"><a href="conponents.html"><p> Hats</p></a></li>
+                    <li class="megamenu-men-nav-items"><a href="conponents.html"><p>Accessories </p></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="megamenu-women">
+              
+                <a href="#"><p>Women <i class="fa-solid fa-angle-down"></i></p></a>
+                <div class="megamenu-women-nav">
+                  <div class="megamenu-women-nav-text">
+                    <ul>
+                      <li class="megamenu-women-nav-items"><a href="conponents.html"><p>Shirt </p></a> </li>
+                      <li class="megamenu-women-nav-items"><a href="conponents.html"><p>Pants </p></a></li>
+                      <li class="megamenu-women-nav-items"><a href="conponents.html"><p>Jeans </p></a></li>
+                      <li class="megamenu-women-nav-items"><a href="conponents.html"><p>Socks </p></a></li>
+                      <li class="megamenu-women-nav-items"><a href="conponents.html"><p> Hats</p></a></li>
+                      <li class="megamenu-women-nav-items"><a href="conponents.html"><p style="margin-top: -16px;">Accessories </p></a></li>
+                    </ul>
+                  </div>
+               
+                  <div class="megamenu-women-nav-img">
+                    <img src="./assets/img/bg-megamenu.png" alt="">
+                  </div>
+                  
+                </div> 
+                
+              </div>
+              <div class="megamenu-accessories">
+                <p class="p-new-blue">NEW</p>
+                <a href="#"><p>Accessories <i class="fa-solid fa-angle-down"></i></p></a>
+                <div class="n">
+                  <div class="accessories-nav">
+                    <div class="accessories-nav-items">
+                      <div class="col-6">
+                        <div class="col-4">
+                          <ul style="text-decoration: none;">
+                            <h4 style="text-decoration: none;"><a style="color: black;" href="conponents.html">Shirt</a><h4>
+                            <li><a  style="color: black;"href="conponents.html">Pants</a></li>
+                            <li><a  style="color: black;"href="conponents.html">Hats</a></li>
+                            <li><a style="color: black;" href="conponents.html">Accessories</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-4">
+                          <ul>
+                            <h4><a style="color: black;" href="conponents.html">Jeans</a></h4>
+                            <li><a style="color: black;" href="conponents.html">Long</a></li>
+                            <li><a style="color: black;" href="conponents.html">Short</a></li>
+                            <li><a style="color: black;" href="conponents.html">Medium</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-4">
+                          <ul>
+                            <h4><a style="color: black;" href="conponents.html">Accessories</a></h4>
+                            <li><a style="color: black;" href="conponents.html">Hats</a><li>
+                            <li><a style="color: black;" href="conponents.html">Shirt</a></li>
+                            <li><a style="color: black;" href="conponents.html">New</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-6"><img src="./assets/img/megamenu-banner.png" alt="" style="margin-left:0px ;"></div>
+                    </div>
+                    <div class="accessories-nav-img">
+                      <img src="./assets/img/bg-accessories.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="megamenu-lookbook">
+                <a href="./account-login.html"><p>Account Login</p></a>
+              </div>
+              <div class="megamenu-contact">
+                <a href="./contact-us.html"><p>Contact</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="megamenu-blog">
+              <p>Blog</p>
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="account-login-top">
+        <div class="container">
+          <div class="row">
+            <div class="account-login-top-text">
+              <h1>Contact Us</h1>
+            </div>
+
+            <ul>
+              <li>Fastor ></li>
+              <li>Contact Us</li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+      </section>
+
+      <section class="our-location">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Our Location</h3>
+              <div class="row">
+                <div class="col-sm-3" >
+                  <strong>Your Store</strong><br />
+                  <address>Address 1</address>
+                </div>
+                <div class="col-sm-3">
+                  <strong>Telephone</strong><br />
+                  <number>+994773884242</number>
+                </div>
+                <!-- <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div> -->
+              </div>
+
+              <div class="row">
+                <fieldset class="fieldset">
+                  <h3>Contact Form</h3>
+                  <div class="form-group required">
+                    <label class="col-sm-2 control-label" for="input-name">Your Name</label>
+                    <div class="col-sm-10">
+                      <input type="text" name="name" value="" id="input-name" class="form-control">
+                            </div>
+                  </div>
+                  <div class="form-group required">
+                    <label class="col-sm-2 control-label" for="input-email">E-Mail Address</label>
+                    <div class="col-sm-10">
+                      <input type="text" name="email" value="" id="input-email" class="form-control">
+                            </div>
+                  </div>
+                  <div class="form-group required">
+                    <label class="col-sm-2 control-label" for="input-enquiry">Enquiry</label>
+                    <div class="col-sm-10">
+                      <textarea name="enquiry" rows="10" id="input-enquiry" class="form-control"></textarea>
+                            </div>
+                  </div>
+
+
+                  <div class="privacy-policy">
+                    <div class="pull-right">
+                      <span>Agree <strong> terms and conditions </strong>and <strong>Privacy Policy</strong>.</span>
+                      <input type="checkbox">
+                      <input class="btn btn-primary button-red" type="submit" value="Submit">
+                    </div>
+                  </div>
+                    </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- section footer top start -->
+      <section class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 text-center">
+              <div class="footer-block">
+                <img src="./assets/img/icon-mail.png" alt="Mail" />
+                <div class="footer-top-text">
+                  <h6>Do you have any question?</h6>
+                  <p>email.example@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 text-center">
+              <div class="footer-block">
+                <img src="./assets/img/icon-phone.png" alt="Phone" />
+                <div class="footer-block-content">
+                  <h6>800-140-100</h6>
+                  <p>Mon - Fri: 8:00 - 17:00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 text-center">
+              <a
+                href="index.php?route=information/contact"
+                class="footer-button"
+                ><button>Contact form</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section footer top end -->
+
+      <!-- section footer main  start -->
+
+      <section class="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <br /><br />
+              <div class="footer-about-us">
+                <img src="./assets/img/logo-footer.png" alt="Fastor" />
+                <h6>
+                  PO Box 16122 Collins Street <br />Victoria 8007 Australia
+                </h6>
+                <p>(+800) 1234 5678 90<br />info@company.com</p>
+                <ul class="social-icons">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <br /><br />
+            </div>
+            <div class="col-sm-3">
+              <br /><br />
+              <div class="custom-blok">
+                <h4>Custom block</h4>
+                <ul>
+                  <li>
+                    <a
+                      href="index.php?route=information/information&amp;information_id=4"
+                      >About us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="index.php?route=information/information&amp;information_id=6"
+                      >Delivery information</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="index.php?route=information/information&amp;information_id=3"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="index.php?route=information/information&amp;information_id=5"
+                      >Terms &amp; Conditions</a
+                    >
+                  </li>
+                  <li><a href="index.php?route=module/faq">Faq</a></li>
+                  <li>
+                    <a href="index.php?route=information/sitemap">Sitemap</a>
+                  </li>
+                  <li>
+                    <a href="index.php?route=product/manufacturer">Brands</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <br /><br />
+              <div class="put-here">
+                <h4>Put here</h4>
+                <ul>
+                  <li>
+                    <a href="index.php?route=account/account">My account</a>
+                  </li>
+                  <li>
+                    <a href="index.php?route=account/order">Order History</a>
+                  </li>
+                  <li>
+                    <a href="index.php?route=account/wishlist">Wish List</a>
+                  </li>
+                  <li>
+                    <a href="index.php?route=account/newsletter">Newsletter</a>
+                  </li>
+                  <li>
+                    <a href="index.php?route=account/return/add">Returns</a>
+                  </li>
+                  <li>
+                    <a
+                      href="index.php?route=information/information&amp;information_id=7"
+                      >Cookies</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <br /><br />
+              <div class="what-you-want">
+                <h4>What you want</h4>
+                <div class="advanced-grid-products">
+                  <div class="product clearfix">
+                    <div class="image">
+                      <a
+                        href="http://fastortheme.com/default/index.php?route=product/product&amp;product_id=49"
+                        ><img
+                          src="http://fastortheme.com/default/image/cache/catalog/demo/samsung_tab_1-84x84.jpg"
+                          alt="Samsung Galaxy Tab 10.1"
+                      /></a>
+                    </div>
+                    <div class="right">
+                      <div class="name">
+                        <a
+                          href="http://fastortheme.com/default/index.php?route=product/product&amp;product_id=49"
+                          >Samsung Galaxy Tab 10.1</a
+                        >
+                      </div>
+                      <div class="price">$199.99</div>
+                    </div>
+                  </div>
+                  <br />
+                  <div class="product clearfix">
+                    <div class="image">
+                      <a
+                        href="http://fastortheme.com/default/index.php?route=product/product&amp;product_id=48"
+                        ><img
+                          src="http://fastortheme.com/default/image/cache/catalog/demo/ipod_classic_1-84x84.jpg"
+                          alt="iPod Classic"
+                      /></a>
+                    </div>
+                    <div class="right">
+                      <div class="name">
+                        <a
+                          href="http://fastortheme.com/default/index.php?route=product/product&amp;product_id=48"
+                          >iPod Classic</a
+                        >
+                      </div>
+                      <div class="price">$100.00</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section footer main end -->
+
+      <!-- section footer main start -->
+      <section class="footer-buttom">
+        <div class="container">
+          <div class="row">
+            <hr style="color: white" />
+            <div class="col-sm-4 text-center m">
+              <div class="footer-block">
+                <img
+                  src="./assets/img/icon-support.png"
+                  alt="Free shipping"
+                  style="width: 80px; margin-top: 10px"
+                />
+                <div class="footer-block-content">
+                  <h6>Free shipping &amp; Return</h6>
+                  <p>For all orders over $500</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 text-center">
+              <div class="footer-block">
+                <img
+                  src="./assets/img/icon-money-back.png"
+                  alt="Money back"
+                  style="width: 80px; margin-top: 10px"
+                />
+                <div class="footer-block-content">
+                  <h6>Money back guarantee</h6>
+                  <p>100% money back guarante</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 text-center">
+              <div class="footer-block">
+                <img
+                  src="./assets/img/icon-free-shipping.png"
+                  alt="Support"
+                  style="width: 80px; margin-top: 10px"
+                />
+                <div class="footer-block-content">
+                  <h6>Support 24/7</h6>
+                  <p>We answer for question all time</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <hr style="color: white" />
+            <div class="col-sm-12">
+              <br />
+              <div style="text-align: center; color: white">
+                Copyright © 2015, Your Store, All Rights Reserved.
+              </div>
+              <br /><br />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section footer main end -->
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

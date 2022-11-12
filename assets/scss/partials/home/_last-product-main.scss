@@ -1,0 +1,68 @@
+.last-product-top {
+  text-align: center;
+  margin-top: 40px;
+
+
+  h4{
+    border-bottom: 2px solid red   ;
+    // height: 1px;
+    
+    
+  }
+
+}
+
+.last-product-main .row {
+  display: flex;
+
+  justify-content: center;
+
+  .card-gap {
+    padding: 0%;
+  }
+}
+
+.card {
+  height: 400px;
+  &:hover {
+    border: 2px solid red;
+  }
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+  color: red;
+  font-weight: 800;
+}
+
+.only-hover {
+  ul li {
+    list-style: none;
+    font-size: 20px;
+  }
+
+  ul {
+    display: flex;
+
+    justify-content: center;
+    gap: 20px;
+  }
+
+  position: absolute;
+  background: #fff;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  padding: 10px 0px 42px 0px;
+  text-align: center;
+  opacity: 0;
+  height: auto;
+  width: auto;
+
+  &:hover {
+    visibility: visible;
+    opacity: 1;
+  }
+}

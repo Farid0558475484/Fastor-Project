@@ -1,0 +1,33 @@
+
+.header-top {
+  background: #d9121f;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  .redline-text {
+    padding: 15px 0px 17px 0px;
+    margin: 0px;
+  }
+  button {
+    background: #fff;
+    margin: 6px 10px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px 10px;
+    color: #d9121f;
+    &:hover{
+      background-color: black;
+    }
+    i {
+      font-size: 16px;
+    }
+  }
+  .header-top-close-btn{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+  }
+}

@@ -1,0 +1,36 @@
+.card-more-category {
+  position: relative;
+  margin: 0px -15px;
+  text-align: center;
+  padding: 0px 0px 40px 0px;
+  // border: 1px solid grey;
+  p {
+    &:hover {
+      color: #d9121f;
+      transition: all 0.2s ease-in;
+    }
+  }
+  h5 {
+    &:hover {
+      color: #d9121f;
+      transition: all 0.2s ease-in;
+    }
+  }
+
+  .btn {
+    background-color: white;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #d9121f;
+ 
+
+    &:hover {
+      background-color: red;
+      color: white;
+      transition: all 0.5s ease-in;
+    }
+  }
+}

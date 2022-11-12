@@ -1,0 +1,159 @@
+.background-img {
+  background-color: #f9f8f8;
+  background-image: url("/assets/img/breadcrumb-category.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 230px;
+}
+
+.category-full-img {
+  position: relative;
+  .row {
+    --bs-gutter-x: 0rem;
+  }
+  .category-full-img-text {
+    position: relative;
+    font-size: 40px;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 0 0;
+    p {
+      position: relative;
+      border-bottom: 3px solid rgb(214, 1, 1);
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.mega-filter-text {
+  padding: 50px 0 0 0;
+  h5 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.filter-blok {
+  border: 3px solid rgb(215, 2, 2);
+  height: 320px;
+
+  // margin: 25px 10px 0 25px;
+  p {
+    font-size: 13px;
+    font-weight: 800;
+  }
+}
+
+.filter-blok-p {
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox-and-text {
+  position: relative;
+  padding: 0 0 0 20px;
+  gap: 20px;
+  display: flex;
+  //  justify-content: center  ;
+  //  gap: 30px  ;
+  // justify-content: center;
+  input {
+    justify-content: flex-start;
+  }
+  p {
+    margin: 0;
+    justify-content: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.513);
+  }
+}
+.price-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+  color: rgba(0, 0, 0, 0.25);
+  p {
+    font-weight: 400;
+  }
+}
+
+.color-p {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 0 20px;
+  position: relative;
+  p {
+    font-weight: 700;
+    font-size: 15px;
+  }
+}
+
+.mfilter-tb ul {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  list-style-type: none;
+}
+.banner-09 {
+  margin-top: 50px;
+}
+
+.companets-categgory {
+  display: flex;
+  div {
+    border: 1px solid rgba(128, 128, 128, 0.519);
+    height: 60px;
+  }
+}
+
+.menu-bars{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.product-compare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-weight: 800;
+    font-size: 12px;
+    margin: 0;
+  }
+}
+.default {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  p {
+    font-weight: 800;
+    font-size: 12px;
+    margin: 0;
+  }
+  i{
+    color: red;
+  }
+}
+
+.num15 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    font-weight: 800;
+    font-size: 12px;
+    margin: 0;
+  }
+  i{
+    color: red;
+  }
+}

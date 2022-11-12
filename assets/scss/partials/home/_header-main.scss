@@ -1,0 +1,142 @@
+.header-main {
+  padding: 50px;
+}
+
+#header-right {
+  //   margin-top: 40px;
+  //   margin-bottom: 40px;
+  // display: flex;
+  // position: relative;
+  // justify-content: end;
+  // gap: 30px;
+  //   font-size: 30px;
+  display: flex;
+  align-items: center;
+  // justify-content: right;
+  gap: 30px;
+  font-size: 30px;
+
+  p {
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+}
+
+#header-centre {
+  // margin-top: 40px;
+  // margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .input-block-level {
+    position: relative;
+
+    padding: 11px 35px 10px 20px;
+    margin: 0px;
+    height: 45px;
+    width: 160px;
+    font-size: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(158, 134, 134, 0.197);
+    &:focus {
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  .currency {
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 1;
+    &:hover {
+      color: red;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        .currency-item {
+          display: block;
+        }
+      }
+    }
+
+    .currency-item {
+      display: none;
+
+      ul {
+        margin-top: 5px;
+        list-style-type: none;
+        color: black;
+        li:hover {
+          color: red;
+        }
+      }
+      position: absolute;
+      font-size: 12px;
+      background-color: #fff;
+      width: 130px;
+      height: 58px;
+      text-decoration: none;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.061);
+    }
+  }
+
+  .lang-english {
+    cursor: pointer;
+    font-weight: 500;
+
+    display: inline-block;
+    &:hover {
+      color: red;
+      transition: all 0.2s ease-in-out;
+      .lang-english-item {
+        display: block;
+      }
+    }
+
+    .lang-english-item {
+      display: none;
+      position: absolute;
+
+      ul {
+        margin-top: 2px;
+        list-style-type: none;
+        color: black;
+        li:hover {
+          color: red;
+        }
+      }
+      position: absolute;
+      font-size: 15px;
+      background-color: #fff;
+      width: 100px;
+      height: 50px;
+      text-decoration: none;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.061);
+    }
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  #header-left {
+    width: 100%;
+    display: none;
+  }
+  #header-right {
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  #header-centre {
+    align-items: center;
+    justify-content: center;
+  }
+} ;

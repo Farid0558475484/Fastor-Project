@@ -1,0 +1,116 @@
+.footer-main {
+  .container {
+    // background-color: #3c3838;
+    background-color: #212529;
+    position: relative;
+
+    .col-sm-3 {
+      border: 1px solid #717171;
+    }
+  }
+  .footer-about-us {
+    padding: 24px 0px 0px 0px;
+
+    img {
+      position: relative;
+      height: auto;
+      max-width: 100%;
+      border: 0;
+
+      padding-left: 70px;
+    }
+    h6 {
+      position: relative;
+      color: #fff;
+      padding: 30px 0px 0px 0px;
+      margin: 0px;
+      font-size: 15px;
+      margin-bottom: 20px;
+      padding-left: 70px;
+    }
+    p {
+      position: relative;
+      margin-bottom: 20px;
+      padding-left: 70px;
+    }
+    .social-icons {
+      display: flex;
+      position: relative;
+
+      justify-content: space-between;
+      font-size: 30px;
+
+      a i {
+        color: #717171;
+        list-style-type: none;
+      }
+    }
+  }
+  .custom-blok {
+    h4 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 18px 0px 12px 0px;
+      margin: 0px 0px 22px 30px;
+      display: inline-block;
+      border-bottom: 2px solid #d9121f;
+    }
+    ul li a {
+      color: #717171;
+      text-decoration: none;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .put-here {
+    h4{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 18px 0px 12px 0px;
+      margin: 0px 0px 22px 30px;
+      display: inline-block;
+      border-bottom: 2px solid #d9121f;
+    }
+    ul li a {
+      color: #717171;
+      text-decoration: none;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .what-you-want{
+    h4{
+
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 18px 0px 12px 0px;
+      margin: 0px 0px 22px 30px;
+      display: inline-block;
+      border-bottom: 2px solid #d9121f;
+
+    }
+  }
+
+  .product{
+    display: flex;
+    position: relative;
+    // justify-content: space-around;
+  
+
+    .name a{
+     text-decoration: none;
+     color: #717171;
+
+    }
+
+    .price{
+      color:red;
+      font-weight: 800;
+    }
+  }
+}
